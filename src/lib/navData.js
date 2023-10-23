@@ -1,5 +1,5 @@
 import HomeIcon from "@mui/icons-material/Home";
-import TravelExploreIcon from "@mui/icons-material/TravelExplore";
+import MonitorIcon from "@mui/icons-material/Monitor";
 import BarChartIcon from "@mui/icons-material/BarChart";
 import SettingsIcon from "@mui/icons-material/Settings";
 
@@ -12,7 +12,7 @@ export const navData = [
   },
   {
     id: 1,
-    icon: <TravelExploreIcon />,
+    icon: <MonitorIcon />,
     text: "Farm Status Page",
     link: "farm-status-page",
   },

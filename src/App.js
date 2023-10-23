@@ -1,6 +1,6 @@
 // src/App.js
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
 import Sidenav from "./components/Sidenav";
 import Header from "./components/Header";
@@ -12,10 +12,9 @@ function App() {
       <Sidenav />
       <main>
         <Header />
-        <Body />
-        {/* <Routes>
-          <Route path="/" element={<Home />} />
-        </Routes> */}
+        <Routes>
+          <Route path="/" element={<Body />} />
+        </Routes>
       </main>
     </div>
   );
