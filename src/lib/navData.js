@@ -7,7 +7,7 @@ export const navData = [
   {
     id: 0,
     icon: <HomeIcon />,
-    text: "Home",
+    text: "Homepage",
     link: "/",
   },
   {

@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 
-// Create a styled component for the header
 const HeaderContainer = styled.header`
   background-color: rgb(10, 25, 41);
   color: #fff;
@@ -13,10 +12,10 @@ const Title = styled.h1`
   margin: 0;
 `;
 
-const Header = () => {
+const Header = (props) => {
   return (
     <HeaderContainer>
-      <Title>EC FPGA Homepage</Title>
+      <Title>{props.title}</Title>
     </HeaderContainer>
   );
 };
